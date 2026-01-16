@@ -1,14 +1,13 @@
-
 package app.model;
 
 public class Student {
-    public String ogrenciNo;
-    public String adSoyad;
-    public String bolum;
+    public String student_no;
+    public String name;
+    public String department;
 
-    public Student(String ogrenciNo, String adSoyad, String bolum) {
-        this.ogrenciNo = ogrenciNo;
-        this.adSoyad = adSoyad;
-        this.bolum = bolum;
+    public Student(String student_no, String name, String department) {
+        this.student_no = student_no;
+        this.name = name;
+        this.department = department;
     }
 }
